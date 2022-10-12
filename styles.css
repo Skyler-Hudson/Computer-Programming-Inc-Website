@@ -1,0 +1,143 @@
+body{
+    background-color: rgb(195, 195, 245);
+}
+
+/* The Navigation Bar */
+.navbar{
+    overflow: hidden;
+    background-color: #333;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar a the top of page */
+    width: 100%; /* Full Width */
+}
+
+/* Links inside the Navigation Bar */
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: left;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Company name inside NavBar */
+.navbar p{
+    text-align: right;
+    margin-right: 30px;
+    color: white;
+    float: right;
+    display: block;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* Change background on mouse-over */
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/*===========================================================================  Start of Index.HTMl  ===================================================================*/
+
+/* Main Content */
+.main {
+    margin-top: 70px; /* Add top margin to avoid content overlay */
+}
+
+.title {
+    text-align: center;
+    font-size: 60px;
+}
+
+/* Reviw Boxes */
+
+.review_1 {
+    position: absolute;
+    top: 35%;
+    width: 20%;
+    height: 300px;
+    text-align: center;
+    font-size: 30px;
+    border: 8px solid royalblue;
+    background-color: peachpuff;
+    display: flex;
+    align-items: center;
+}
+
+.review_2 {
+    background-color: peachpuff;
+    border: 8px solid royalblue;
+    width: 20%;
+    height: 300px;
+    position: absolute;
+    top: 35%;
+    left: 40%;
+    display: flex;
+    align-items: center;
+    font-size: 40px;
+    text-align: center;
+}
+
+.review_3 {
+    background-color: peachpuff;
+    border: 8px solid royalblue;
+    width: 20%;
+    height: 300px;
+    position: absolute;
+    top: 35%;
+    right: .5%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-size: 35px;
+}
+
+/*===========================================================================  Start of Contact.HTMl  =================================================================*/
+.contact-title {
+    position: absolute;
+    top: 29%;
+    left: 22%;
+}
+
+.personal-contact-title {
+    position: absolute;
+    top: 29%;
+    right: 7%;
+}
+
+.Email-Phone {
+    background-color: peachpuff;
+    border: 8px solid royalblue;
+    width: 40%;
+    position: absolute;
+    top: 35%;
+    left: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.Fill-Out-Box {
+    background-color: peachpuff;
+    border: 8px solid royalblue;
+    width: 10%;
+    position: absolute;
+    top: 35%;
+    right: 10%;
+}
+
+/*===========================================================================  Start of About.HTMl  ===================================================================*/
+.about-page {
+    background-color: peachpuff;
+    border: 8px solid royalblue;
+    width: 50%;
+    height: 300px;
+    position: absolute;
+    top: 35%;
+    left: 24.5%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-size: 40px;
+}
